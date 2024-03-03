@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_18_LoginAndPurchaseDog,Edge Chromium 122,,,03-03-2024 16:39:53,03-03-2024 16:41:11,1m - 17.713s,PASSED
+,,,,,,,
+Test Cases/PetStoreApp/TC_18_LoginAndPurchaseDog,Edge Chromium 122,,,03-03-2024 16:39:53,03-03-2024 16:41:11,1m - 17.300s,PASSED
+"callTestCase(findTestCase(""PetStoreApp/TC_16_LoginToApp""), [:], STOP_ON_FAILURE)",Edge Chromium 122,,,03-03-2024 16:39:54,03-03-2024 16:40:43,48.844s,PASSED
+"click(findTestObject(""Object Repository/LoginAndPurchaseDog/Page_JPetStore Demo/img""))",Edge Chromium 122,,,03-03-2024 16:40:43,03-03-2024 16:40:47,4.313s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=DOGS"")",Edge Chromium 122,,,03-03-2024 16:40:47,03-03-2024 16:40:48,0.716s,PASSED
+"click(findTestObject(""Object Repository/LoginAndPurchaseDog/Page_JPetStore Demo/a_K9-RT-01""))",Edge Chromium 122,,,03-03-2024 16:40:48,03-03-2024 16:40:52,3.972s,PASSED
+"click(findTestObject(""Object Repository/LoginAndPurchaseDog/Page_JPetStore Demo/a_Add to Cart""))",Edge Chromium 122,,,03-03-2024 16:40:52,03-03-2024 16:40:56,4.352s,PASSED
+"click(findTestObject(""Object Repository/LoginAndPurchaseDog/Page_JPetStore Demo/td""))",Edge Chromium 122,,,03-03-2024 16:40:56,03-03-2024 16:40:58,1.695s,PASSED
+"setText(findTestObject(""Object Repository/LoginAndPurchaseDog/Page_JPetStore Demo/input_true_EST-28""), ""5"")",Edge Chromium 122,,,03-03-2024 16:40:58,03-03-2024 16:41:02,4.094s,PASSED
+"click(findTestObject(""Object Repository/LoginAndPurchaseDog/Page_JPetStore Demo/input_Sub Total 155.29_updateCartQuantities""))",Edge Chromium 122,,,03-03-2024 16:41:02,03-03-2024 16:41:08,5.731s,PASSED
+"click(findTestObject(""Object Repository/LoginAndPurchaseDog/Page_JPetStore Demo/a_Return to Main Menu""))",Edge Chromium 122,,,03-03-2024 16:41:08,03-03-2024 16:41:10,2.570s,PASSED
+closeBrowser(),Edge Chromium 122,,,03-03-2024 16:41:10,03-03-2024 16:41:11,0.289s,PASSED

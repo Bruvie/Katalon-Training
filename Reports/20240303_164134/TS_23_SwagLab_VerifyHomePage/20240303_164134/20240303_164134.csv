@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_23_SwagLab_VerifyHomePage,Edge Chromium 122,,,03-03-2024 16:41:50,03-03-2024 16:42:36,46.222s,PASSED
+,,,,,,,
+Test Cases/SauceLabsApp/TC_23_VerfiyHomePage,Edge Chromium 122,,,03-03-2024 16:41:51,03-03-2024 16:42:36,45.188s,PASSED
+"callTestCase(findTestCase(""SauceLabsApp/TC_21_LoginWithValidUser""), [:], STOP_ON_FAILURE)",Edge Chromium 122,,,03-03-2024 16:41:52,03-03-2024 16:42:29,36.743s,PASSED
+"click(findTestObject(""Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/button_Open Menu""))",Edge Chromium 122,,,03-03-2024 16:42:29,03-03-2024 16:42:30,0.544s,PASSED
+"verifyElementText(findTestObject(""Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/a_All Items""), ""All Items"")",Edge Chromium 122,,,03-03-2024 16:42:30,03-03-2024 16:42:30,0.563s,PASSED
+"verifyElementText(findTestObject(""Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/a_About""), ""About"")",Edge Chromium 122,,,03-03-2024 16:42:30,03-03-2024 16:42:31,0.520s,PASSED
+"verifyElementText(findTestObject(""Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/a_Logout""), ""Logout"")",Edge Chromium 122,,,03-03-2024 16:42:31,03-03-2024 16:42:31,0.510s,PASSED
+"verifyElementText(findTestObject(""Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/a_Reset App State""), ""Reset App State"")",Edge Chromium 122,,,03-03-2024 16:42:31,03-03-2024 16:42:32,0.519s,PASSED
+"click(findTestObject(""Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/button_Close Menu""))",Edge Chromium 122,,,03-03-2024 16:42:32,03-03-2024 16:42:33,1.228s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/a_Swag Labs_shopping_cart_link""))",Edge Chromium 122,,,03-03-2024 16:42:33,03-03-2024 16:42:34,1.029s,PASSED
+closeBrowser(),Edge Chromium 122,,,03-03-2024 16:42:34,03-03-2024 16:42:36,1.923s,PASSED

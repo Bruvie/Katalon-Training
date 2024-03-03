@@ -6,12 +6,12 @@
    <elementGuidId>350ec499-c1cc-4cb4-8de2-0296a1ca4725</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#SidebarContent > a:nth-of-type(5) > img</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='SidebarContent']/a[5]/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#SidebarContent > a:nth-of-type(5) > img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>8e1c1983-acc2-4b42-8794-cd5926eba454</webElementGuid>
+      <webElementGuid>a23d78a3-852e-4769-ac41-6af7645dc123</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>src</name>
       <type>Main</type>
       <value>../images/birds_icon.gif</value>
-      <webElementGuid>d052d92f-8383-47f9-ae51-1f1df496d3ba</webElementGuid>
+      <webElementGuid>19ca6a5c-2c97-4a96-a450-d24e45047524</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;SidebarContent&quot;)/a[5]/img[1]</value>
-      <webElementGuid>c9c9f042-7201-4d48-bf79-ca26d2a37ac6</webElementGuid>
+      <webElementGuid>a7627b2d-40b0-4566-b48c-383e44c577cf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='SidebarContent']/a[5]/img</value>
-      <webElementGuid>58883f87-587c-4401-9ef0-7febaa252a4e</webElementGuid>
+      <webElementGuid>b65403df-d100-4782-af09-48d8a8f70090</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/a[5]/img</value>
-      <webElementGuid>85be8bac-8b07-4a27-8e0e-e9a65aff544a</webElementGuid>
+      <webElementGuid>036d440b-e1b2-4a1e-9a42-8b1e250eb0c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,6 +69,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '../images/birds_icon.gif']</value>
-      <webElementGuid>bfc47e31-3fcb-4e99-92a6-63374de2d3dc</webElementGuid>
+      <webElementGuid>695627c3-32dc-478a-b99c-9326907809f0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -33,6 +33,18 @@ WebUI.setText(findTestObject('Object Repository/LoginAndPurchaseBird/Page_JPetSt
 
 WebUI.click(findTestObject('Object Repository/LoginAndPurchaseBird/Page_JPetStore Demo/input_Sub Total 15.50_updateCartQuantities'))
 
+WebUI.click(findTestObject('Object Repository/LoginAndPurchaseBird/Page_JPetStore Demo/a_Proceed to Checkout'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/LoginAndPurchaseBird/Page_JPetStore Demo/th_Payment Details'), 
+    'Payment Details')
+
+WebUI.verifyElementText(findTestObject('Object Repository/LoginAndPurchaseBird/Page_JPetStore Demo/th_Billing Address'), 
+    'Billing Address')
+
+WebUI.click(findTestObject('Object Repository/LoginAndPurchaseBird/Page_JPetStore Demo/input_Sub Total 15.50_updateCartQuantities'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/LoginAndPurchaseBird/Page_JPetStore Demo/b_Order'), 'Order')
+
 WebUI.click(findTestObject('Object Repository/LoginAndPurchaseBird/Page_JPetStore Demo/a_Return to Main Menu'))
 
 WebUI.closeBrowser()

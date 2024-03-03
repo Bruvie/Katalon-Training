@@ -6,12 +6,12 @@
    <elementGuidId>7e215562-edc8-4ee5-b667-77abe2f6d7db</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#BackLink > a</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='BackLink']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#BackLink > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>8c10d0af-2bf1-4af2-96d9-c12ee120de7c</webElementGuid>
+      <webElementGuid>33c1e0d5-ad14-4fc4-9840-881d47955961</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/actions/Catalog.action</value>
-      <webElementGuid>6cc773d0-e3ed-46b2-b6bd-aa2a1d33ddf4</webElementGuid>
+      <webElementGuid>28e30891-57cb-48bc-8039-d7b33acc3859</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Return to Main Menu</value>
-      <webElementGuid>93cfefc3-28bb-4e83-8c91-be90d84280aa</webElementGuid>
+      <webElementGuid>60114350-0c1c-49f1-a217-31c57a5947dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;BackLink&quot;)/a[1]</value>
-      <webElementGuid>fdc6fc06-4450-48e7-8d0b-123dae7da6eb</webElementGuid>
+      <webElementGuid>c82d36a4-2e2f-4ff3-a527-1c2974c14594</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='BackLink']/a</value>
-      <webElementGuid>11f3018c-3148-4168-8adc-3fb703a9389d</webElementGuid>
+      <webElementGuid>32ec7e10-910a-41d1-8046-c5acb105b332</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Return to Main Menu')]</value>
-      <webElementGuid>16573bde-26fc-462e-8dc4-170cca1a32f9</webElementGuid>
+      <webElementGuid>1643fdbc-15b7-4bcd-8ff5-3fee0428d88e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[1]/following::a[6]</value>
-      <webElementGuid>a5f5e075-ddca-4a6a-a979-ff9b6c80b7ab</webElementGuid>
+      <webElementGuid>1af81d98-fe8c-4206-962f-f2205bbcff0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My Account'])[1]/following::a[7]</value>
-      <webElementGuid>bd57eab9-9916-4796-9717-e3e01bd2fb61</webElementGuid>
+      <webElementGuid>873b72a5-684e-4b36-9668-5e4a182a060e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shopping Cart'])[1]/preceding::a[1]</value>
-      <webElementGuid>acdeedd8-5dbf-4177-83d8-bf73a1333f70</webElementGuid>
+      <webElementGuid>d967bf3b-3995-4ce0-87ea-3cfc88f275d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Item ID'])[1]/preceding::a[1]</value>
-      <webElementGuid>26f4eeca-36bb-45e1-9a10-1f95e002b495</webElementGuid>
+      <webElementGuid>db9161f4-91f9-4c2f-b035-097e31844688</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Return to Main Menu']/parent::*</value>
-      <webElementGuid>68fb4890-2ca8-42b9-be72-548e754eb490</webElementGuid>
+      <webElementGuid>bd20baf4-3bbb-4f1c-a80f-94b6afbfd184</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/actions/Catalog.action')])[7]</value>
-      <webElementGuid>f7e2836e-c4ed-468c-98c4-55fe361ceb4b</webElementGuid>
+      <webElementGuid>63978ebc-7b95-4e57-b237-a8ef6a0be45a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/a</value>
-      <webElementGuid>0c03e7c4-f0b8-4c0b-bed8-8721a451b8de</webElementGuid>
+      <webElementGuid>e9ac1c93-dafd-4027-abbf-6cd70a1118b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/actions/Catalog.action' and (text() = 'Return to Main Menu' or . = 'Return to Main Menu')]</value>
-      <webElementGuid>8325b6f9-7fd1-487e-8685-1418efe6cb66</webElementGuid>
+      <webElementGuid>4157ba44-c97c-4e55-a64a-abe0ce1905a9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

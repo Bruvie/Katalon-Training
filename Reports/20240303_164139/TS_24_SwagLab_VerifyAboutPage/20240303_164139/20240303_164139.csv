@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_24_SwagLab_VerifyAboutPage,Edge Chromium 122,,,03-03-2024 16:41:59,03-03-2024 16:44:32,2m - 32.979s,PASSED
+,,,,,,,
+Test Cases/SauceLabsApp/TC_24_Verify_AboutPage,Edge Chromium 122,,,03-03-2024 16:42:00,03-03-2024 16:44:32,2m - 31.815s,PASSED
+"callTestCase(findTestCase(""SauceLabsApp/TC_21_LoginWithValidUser""), [:], STOP_ON_FAILURE)",Edge Chromium 122,,,03-03-2024 16:42:03,03-03-2024 16:42:38,35.170s,PASSED
+"click(findTestObject(""Object Repository/SwagLab_Verify_AboutPage/Page_Swag Labs/button_Open Menu""))",Edge Chromium 122,,,03-03-2024 16:42:38,03-03-2024 16:42:39,0.796s,PASSED
+"click(findTestObject(""Object Repository/SwagLab_Verify_AboutPage/Page_Swag Labs/a_About""))",Edge Chromium 122,,,03-03-2024 16:42:39,03-03-2024 16:43:20,41.805s,PASSED
+"navigateToUrl(""https://saucelabs.com/"")",Edge Chromium 122,,,03-03-2024 16:43:20,03-03-2024 16:43:57,36.405s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/SwagLab_Verify_AboutPage/Page_Sauce Labs Cross Browser Testing, Sele_e8ee84/div_Products_MuiBox-root css-qkbq7h""))",Edge Chromium 122,,,03-03-2024 16:43:57,03-03-2024 16:43:58,1.111s,PASSED
+closeBrowser(),Edge Chromium 122,,,03-03-2024 16:43:58,03-03-2024 16:44:32,34.299s,PASSED

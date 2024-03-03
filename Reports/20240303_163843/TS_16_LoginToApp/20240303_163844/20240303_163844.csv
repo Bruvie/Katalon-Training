@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_16_LoginToApp,Edge Chromium 122,,,03-03-2024 16:38:49,03-03-2024 16:39:05,15.690s,PASSED
+,,,,,,,
+Test Cases/PetStoreApp/TC_16_LoginToApp,Edge Chromium 122,,,03-03-2024 16:38:49,03-03-2024 16:39:05,15.406s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,03-03-2024 16:38:50,03-03-2024 16:38:54,4.914s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 122,,,03-03-2024 16:38:54,03-03-2024 16:38:57,2.156s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LoginToApp/Page_JPetStore Demo/h2_Welcome to JPetStore 6""), ""Welcome to JPetStore 6"")",Edge Chromium 122,,,03-03-2024 16:38:57,03-03-2024 16:38:57,0.568s,PASSED
+"click(findTestObject(""Object Repository/LoginToApp/Page_JPetStore Demo/a_Enter the Store""))",Edge Chromium 122,,,03-03-2024 16:38:57,03-03-2024 16:38:59,2.260s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LoginToApp/Page_JPetStore Demo/img""), """")",Edge Chromium 122,,,03-03-2024 16:38:59,03-03-2024 16:39:00,0.402s,PASSED
+"click(findTestObject(""Object Repository/LoginToApp/Page_JPetStore Demo/a_Sign In""))",Edge Chromium 122,,,03-03-2024 16:39:00,03-03-2024 16:39:01,0.915s,PASSED
+"setText(findTestObject(""Object Repository/LoginToApp/Page_JPetStore Demo/input_Need a user name and password_username""), ""bruvie"")",Edge Chromium 122,,,03-03-2024 16:39:01,03-03-2024 16:39:02,0.749s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/LoginToApp/Page_JPetStore Demo/input_Need a user name and password_password""), ""qPDWtMYEx+8="")",Edge Chromium 122,,,03-03-2024 16:39:02,03-03-2024 16:39:02,0.472s,PASSED
+"click(findTestObject(""Object Repository/LoginToApp/Page_JPetStore Demo/p_UsernamesetTimeout(function()tryvar zdocu_90a06a""))",Edge Chromium 122,,,03-03-2024 16:39:02,03-03-2024 16:39:02,0.436s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/LoginToApp/Page_JPetStore Demo/input_Need a user name and password_password""), ""5Z9ySau9obQ="")",Edge Chromium 122,,,03-03-2024 16:39:02,03-03-2024 16:39:03,0.451s,PASSED
+"click(findTestObject(""Object Repository/LoginToApp/Page_JPetStore Demo/input_Need a user name and password_signon""))",Edge Chromium 122,,,03-03-2024 16:39:03,03-03-2024 16:39:04,1.365s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LoginToApp/Page_JPetStore Demo/div_Welcome Bruvie""), ""Welcome Bruvie!"")",Edge Chromium 122,,,03-03-2024 16:39:04,03-03-2024 16:39:05,0.332s,PASSED

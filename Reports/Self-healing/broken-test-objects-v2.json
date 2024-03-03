@@ -19,6 +19,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Sorry, this user has been _e43fcb_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/button_Back to products",
+      "brokenLocator": "//button[@id\u003d\u0027back-to-products\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Swag Labs\u0027])[2]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/button_Back to products_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/LoginAndPurchaseBird/Page_JPetStore Demo/input_Sub Total 15.50_updateCartQuantities",
+      "brokenLocator": "//input[@name\u003d\u0027newOrder\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@name\u003d\u0027updateCartQuantities\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/LoginAndPurchaseBird/Page_JPetStore Demo/input_Sub Total 15.50_updateCartQuantities_attributes.png"
     }
   ]
 }

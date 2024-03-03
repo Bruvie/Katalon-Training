@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_19_LoginAndPurchaseReptiles,Edge Chromium 122,,,03-03-2024 16:40:10,03-03-2024 16:40:48,38.351s,PASSED
+,,,,,,,
+Test Cases/PetStoreApp/TC_19_LoginAndPurchaseReptiles,Edge Chromium 122,,,03-03-2024 16:40:11,03-03-2024 16:40:48,37.858s,PASSED
+"callTestCase(findTestCase(""PetStoreApp/TC_16_LoginToApp""), [:], STOP_ON_FAILURE)",Edge Chromium 122,,,03-03-2024 16:40:12,03-03-2024 16:40:38,26.719s,PASSED
+"click(findTestObject(""Object Repository/LoginAndPurchaseReptiles/Page_JPetStore Demo/img""))",Edge Chromium 122,,,03-03-2024 16:40:38,03-03-2024 16:40:40,1.649s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=REPTILES"")",Edge Chromium 122,,,03-03-2024 16:40:40,03-03-2024 16:40:41,0.618s,PASSED
+"click(findTestObject(""Object Repository/LoginAndPurchaseReptiles/Page_JPetStore Demo/a_RP-LI-02""))",Edge Chromium 122,,,03-03-2024 16:40:41,03-03-2024 16:40:42,1.065s,PASSED
+"click(findTestObject(""Object Repository/LoginAndPurchaseReptiles/Page_JPetStore Demo/a_Add to Cart""))",Edge Chromium 122,,,03-03-2024 16:40:42,03-03-2024 16:40:43,1.772s,PASSED
+"setText(findTestObject(""Object Repository/LoginAndPurchaseReptiles/Page_JPetStore Demo/input_true_EST-13""), ""3"")",Edge Chromium 122,,,03-03-2024 16:40:43,03-03-2024 16:40:45,1.354s,PASSED
+"click(findTestObject(""Object Repository/LoginAndPurchaseReptiles/Page_JPetStore Demo/input_Sub Total 18.50_updateCartQuantities""))",Edge Chromium 122,,,03-03-2024 16:40:45,03-03-2024 16:40:46,1.310s,PASSED
+"click(findTestObject(""Object Repository/LoginAndPurchaseReptiles/Page_JPetStore Demo/a_Return to Main Menu""))",Edge Chromium 122,,,03-03-2024 16:40:46,03-03-2024 16:40:48,1.668s,PASSED
+closeBrowser(),Edge Chromium 122,,,03-03-2024 16:40:48,03-03-2024 16:40:48,0.665s,PASSED

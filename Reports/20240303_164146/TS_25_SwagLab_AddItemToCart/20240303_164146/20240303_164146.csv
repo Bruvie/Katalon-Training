@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_25_SwagLab_AddItemToCart,,,,03-03-2024 16:42:15,03-03-2024 16:46:24,4m - 8.991s,FAILED
+,,,,,,,
+Test Cases/SauceLabsApp/TC_25_AddItemToCart,,,,03-03-2024 16:45:24,03-03-2024 16:46:24,1m - 0.158s,FAILED
+"callTestCase(findTestCase(""SauceLabsApp/TC_21_LoginWithValidUser""), [:], STOP_ON_FAILURE)",,,,03-03-2024 16:45:24,03-03-2024 16:46:24,1m - 0.134s,FAILED

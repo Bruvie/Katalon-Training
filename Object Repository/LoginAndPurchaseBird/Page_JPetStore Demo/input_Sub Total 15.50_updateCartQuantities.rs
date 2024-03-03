@@ -6,19 +6,19 @@
    <elementGuidId>b821e8be-2c77-4359-93ba-ad056fa956a3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;updateCartQuantities&quot;]</value>
+         <key>XPATH</key>
+         <value>//input[@name='newOrder']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='updateCartQuantities']</value>
+         <key>CSS</key>
+         <value>input[name=&quot;newOrder&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Update Cart&quot;i]</value>
+         <value>internal:role=button[name=&quot;Continue&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d253cb0d-3e00-4601-adbb-97b2b18c22b5</webElementGuid>
+      <webElementGuid>1fa35dd7-582f-4110-b061-099d9ae9ab1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>updateCartQuantities</value>
-      <webElementGuid>05e87bb9-b589-4442-ba54-c382733b8be1</webElementGuid>
+      <value>newOrder</value>
+      <webElementGuid>5dcda557-192f-4fc4-bafb-e05469c4e8c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,31 +45,63 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>1a264baa-e378-4b08-aa35-d0b9c65411ed</webElementGuid>
+      <webElementGuid>a64c29da-b692-4f0d-a9d1-dcabba3a3c5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Update Cart</value>
-      <webElementGuid>c64678b7-eded-409f-ad80-dcc0eb2e512a</webElementGuid>
+      <value>Continue</value>
+      <webElementGuid>8ac9ac41-6c38-4e16-b713-12df2c683fd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Cart&quot;)/form[1]/table[1]/tbody[1]/tr[3]/td[1]/input[1]</value>
-      <webElementGuid>05f3e790-eb6e-4b5c-98b0-c9e5673b3407</webElementGuid>
+      <value>id(&quot;Catalog&quot;)/form[1]/input[1]</value>
+      <webElementGuid>1f47f4d4-400b-4e07-ac0f-4dc0e0118a46</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
+      <value>//input[@name='newOrder']</value>
+      <webElementGuid>6e341d63-6c02-418c-aa26-77db3438e1df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Catalog']/form/input</value>
+      <webElementGuid>c9aa917b-5ddf-4b65-93bf-4c7d250ae396</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/form/input</value>
+      <webElementGuid>839a9bdb-bef9-42f8-9047-fb519e8f6dec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'newOrder' and @type = 'submit']</value>
+      <webElementGuid>b69c1e0c-42ff-482f-b50a-d51f440e8d7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
       <value>//input[@name='updateCartQuantities']</value>
-      <webElementGuid>01b83feb-0766-4c0e-8fd2-d7cea19747b7</webElementGuid>
+      <webElementGuid>e436e2bc-30be-47e1-8c22-d8bedcd3e5a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Cart']/form/table/tbody/tr[3]/td/input</value>
-      <webElementGuid>0cdbcd74-457e-4054-9653-c87ae3317242</webElementGuid>
+      <webElementGuid>31ccccbe-91d9-40df-af02-ed456cf49493</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td/input</value>
-      <webElementGuid>dca20953-66e1-4902-994b-b8640e3c188a</webElementGuid>
+      <webElementGuid>68fb3541-55b7-4ace-a1b5-370177d20215</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'updateCartQuantities' and @type = 'submit']</value>
-      <webElementGuid>5c0c2a97-f2bb-44d8-b7c1-857ba1ff2670</webElementGuid>
+      <webElementGuid>ca20a0c7-d8e2-4248-8648-9e3dfef4c239</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

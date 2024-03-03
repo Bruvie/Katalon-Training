@@ -6,12 +6,12 @@
    <elementGuidId>c9e9f0a2-b15f-4db2-a280-8316e6cbe042</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;EST-19&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='EST-19']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;EST-19&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>99cb6105-8df7-4300-9378-224295b0345a</webElementGuid>
+      <webElementGuid>e2c36f1a-8413-4dd3-b37c-df49c29d7388</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>size</name>
       <type>Main</type>
       <value>3</value>
-      <webElementGuid>44088f83-f81a-4450-b700-148b6e6eaa90</webElementGuid>
+      <webElementGuid>44a24de1-3cda-4116-9a07-11359c0b0b1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>EST-19</value>
-      <webElementGuid>ce45aa29-8504-4313-b4a6-33c7ce5a3f8a</webElementGuid>
+      <webElementGuid>258f5c38-a478-4180-8bb2-2b4079288411</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>8e099af6-f975-4c9c-b8a3-0ee365daa4bd</webElementGuid>
+      <webElementGuid>c98205ac-5ba3-47d4-88a7-e100d9235229</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>value</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>18fe189f-521a-4860-b57c-f3b64be6f9e6</webElementGuid>
+      <webElementGuid>82d17c79-1cbd-4dd1-99df-0f4e12b21f98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Cart&quot;)/form[1]/table[1]/tbody[1]/tr[2]/td[5]/input[1]</value>
-      <webElementGuid>9de95d27-5ebb-434c-919d-d00cf7d1a397</webElementGuid>
+      <webElementGuid>38f4491b-71f3-48e2-a0de-77bcc4d9d399</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='EST-19']</value>
-      <webElementGuid>f3060a9b-f432-444b-96cb-9257698d8c5d</webElementGuid>
+      <webElementGuid>31c6fe77-004d-4112-a6e7-1072596c4979</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Cart']/form/table/tbody/tr[2]/td[5]/input</value>
-      <webElementGuid>96918c52-f16f-4dbf-8feb-6f0b1e19835a</webElementGuid>
+      <webElementGuid>da164abf-10df-452f-a2ad-049c07141240</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[5]/input</value>
-      <webElementGuid>37583d55-37f3-41fd-bdfb-1c898245fc2a</webElementGuid>
+      <webElementGuid>2be37f37-5e9d-4a40-a55b-80f0dcf04494</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'EST-19' and @type = 'text']</value>
-      <webElementGuid>305d05f9-f088-4cb6-b83c-71f2fbb077bc</webElementGuid>
+      <webElementGuid>506696aa-d615-44f4-b6e8-c31a0a37e0b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
