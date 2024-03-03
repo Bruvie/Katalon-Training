@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/LoginAndPurchaseDog/Page_JPetStore Demo/a_Return to Main Menu",
+      "brokenLocator": "//div[@id\u003d\u0027BackLink\u0027]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027?\u0027])[1]/following::a[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240303_143025/TS_18_LoginAndPurchaseDog/20240303_143025/Object Repository/LoginAndPurchaseDog/Page_JPetStore Demo/a_Return to Main Menu_neighbor.png"
+    }
+  ]
+}
