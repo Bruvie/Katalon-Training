@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_31_Testdat_LoginWithInvalidUser,Edge Chromium 122,,,09-03-2024 17:13:40,09-03-2024 17:17:49,4m - 8.356s,PASSED
+,,,,,,,
+Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser,Edge Chromium 122,,,09-03-2024 17:13:41,09-03-2024 17:15:02,1m - 21.052s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,09-03-2024 17:13:41,09-03-2024 17:13:46,5.006s,PASSED
+navigateToUrl(url),Edge Chromium 122,,,09-03-2024 17:13:46,09-03-2024 17:13:55,9.290s,PASSED
+"logInfo(""Browser is launched"")",Edge Chromium 122,,,09-03-2024 17:13:55,09-03-2024 17:13:55,0.015s,PASSED
+maximizeWindow(),Edge Chromium 122,,,09-03-2024 17:13:55,09-03-2024 17:13:56,0.301s,PASSED
+"setText(findTestObject(""Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name""), username)",Edge Chromium 122,,,09-03-2024 17:13:56,09-03-2024 17:13:57,0.893s,PASSED
+"setText(findTestObject(""Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password""), password)",Edge Chromium 122,,,09-03-2024 17:13:57,09-03-2024 17:13:59,2.317s,PASSED
+"click(findTestObject(""Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button""))",Edge Chromium 122,,,09-03-2024 17:13:59,09-03-2024 17:14:01,1.949s,PASSED
+"verifyElementText(findTestObject(""Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909""), ""Epic sadface: Username and password do not match any user in this service"")",Edge Chromium 122,,,09-03-2024 17:14:01,09-03-2024 17:14:31,30.179s,PASSED
+"click(findTestObject(""Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed""))",Edge Chromium 122,,,09-03-2024 17:14:31,09-03-2024 17:15:01,30.249s,PASSED
+closeBrowser(),Edge Chromium 122,,,09-03-2024 17:15:01,09-03-2024 17:15:02,0.495s,PASSED
+,,,,,,,
+Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser,Edge Chromium 122,,,09-03-2024 17:15:02,09-03-2024 17:16:32,1m - 30.506s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,09-03-2024 17:15:02,09-03-2024 17:15:06,3.707s,PASSED
+navigateToUrl(url),Edge Chromium 122,,,09-03-2024 17:15:06,09-03-2024 17:15:26,19.914s,PASSED
+"logInfo(""Browser is launched"")",Edge Chromium 122,,,09-03-2024 17:15:26,09-03-2024 17:15:26,0.002s,PASSED
+maximizeWindow(),Edge Chromium 122,,,09-03-2024 17:15:26,09-03-2024 17:15:26,0.278s,PASSED
+"setText(findTestObject(""Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name""), username)",Edge Chromium 122,,,09-03-2024 17:15:26,09-03-2024 17:15:27,0.772s,PASSED
+"setText(findTestObject(""Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password""), password)",Edge Chromium 122,,,09-03-2024 17:15:27,09-03-2024 17:15:30,3.234s,PASSED
+"click(findTestObject(""Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button""))",Edge Chromium 122,,,09-03-2024 17:15:30,09-03-2024 17:15:32,1.968s,PASSED
+"verifyElementText(findTestObject(""Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909""), ""Epic sadface: Username and password do not match any user in this service"")",Edge Chromium 122,,,09-03-2024 17:15:32,09-03-2024 17:16:02,30.137s,PASSED
+"click(findTestObject(""Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed""))",Edge Chromium 122,,,09-03-2024 17:16:02,09-03-2024 17:16:32,30.156s,PASSED
+closeBrowser(),Edge Chromium 122,,,09-03-2024 17:16:32,09-03-2024 17:16:32,0.296s,PASSED
+,,,,,,,
+Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser,Edge Chromium 122,,,09-03-2024 17:16:32,09-03-2024 17:17:49,1m - 16.272s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,09-03-2024 17:16:33,09-03-2024 17:16:37,4.321s,PASSED
+"navigateToUrl(url, CONTINUE_ON_FAILURE)",Edge Chromium 122,,,09-03-2024 17:16:37,09-03-2024 17:16:46,8.964s,PASSED
+"logInfo(""Browser is launched"")",Edge Chromium 122,,,09-03-2024 17:16:46,09-03-2024 17:16:46,0.004s,PASSED
+maximizeWindow(),Edge Chromium 122,,,09-03-2024 17:16:46,09-03-2024 17:16:46,0.269s,PASSED
+"setText(findTestObject(""Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name""), username)",Edge Chromium 122,,,09-03-2024 17:16:46,09-03-2024 17:16:47,0.697s,PASSED
+"setText(findTestObject(""Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password""), password)",Edge Chromium 122,,,09-03-2024 17:16:47,09-03-2024 17:16:48,0.790s,PASSED
+"click(findTestObject(""Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button""))",Edge Chromium 122,,,09-03-2024 17:16:48,09-03-2024 17:16:48,0.399s,PASSED
+"verifyElementText(findTestObject(""Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909""), ""Epic sadface: Username and password do not match any user in this service"")",Edge Chromium 122,,,09-03-2024 17:16:48,09-03-2024 17:17:18,30.182s,PASSED
+"click(findTestObject(""Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed""))",Edge Chromium 122,,,09-03-2024 17:17:18,09-03-2024 17:17:48,30.169s,PASSED
+closeBrowser(),Edge Chromium 122,,,09-03-2024 17:17:48,09-03-2024 17:17:49,0.322s,PASSED

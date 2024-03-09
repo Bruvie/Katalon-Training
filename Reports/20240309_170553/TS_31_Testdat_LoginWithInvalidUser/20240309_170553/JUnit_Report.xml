@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_31_Testdat_LoginWithInvalidUser" time="264.34" tests="5" failures="2" errors="0">
+   <testsuite name="TS_31_Testdat_LoginWithInvalidUser" tests="5" failures="2" errors="0" time="264.34" skipped="0" timestamp="09-03-2024T17:05:57" hostname="DJ793LJ - IN3233809W1.ey.net" id="Test Suites/TS_31_Testdat_LoginWithInvalidUser">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_170553\\TS_31_Testdat_LoginWithInvalidUser\\20240309_170553"/>
+         <property name="logFiles" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_170553\\TS_31_Testdat_LoginWithInvalidUser\\20240309_170553\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_170553\\TS_31_Testdat_LoginWithInvalidUser\\20240309_170553\\1709984389236.png, C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_170553\\TS_31_Testdat_LoginWithInvalidUser\\20240309_170553\\1709984394742.png, C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_170553\\TS_31_Testdat_LoginWithInvalidUser\\20240309_170553\\1709984399066.png, C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_170553\\TS_31_Testdat_LoginWithInvalidUser\\20240309_170553\\1709984403149.png, C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_170553\\TS_31_Testdat_LoginWithInvalidUser\\20240309_170553\\1709984408400.png, C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_170553\\TS_31_Testdat_LoginWithInvalidUser\\20240309_170553\\1709984412900.png, C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_170553\\TS_31_Testdat_LoginWithInvalidUser\\20240309_170553\\1709984417398.png, C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_170553\\TS_31_Testdat_LoginWithInvalidUser\\20240309_170553\\1709984421952.png"/>
+         <property name="hostName" value="DJ793LJ - IN3233809W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Edge Chromium 122"/>
+         <property name="hostAddress" value="192.168.2.5"/>
+         <property name="sessionId" value="7a206956b95b31f57878a20ac2951bd7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser" time="79.651" classname="Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser" status="PASSED">
+         <system-out><![CDATA[09-03-2024T17:05:58 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser: Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser
+
+09-03-2024T17:05:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-03-2024T17:05:58 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-03-2024T17:06:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-03-2024T17:06:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-03-2024T17:06:03 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T17:06:10 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T17:06:10 - [TEST_STEP][PASSED] - logInfo("Browser is launched"): Browser is launched
+
+09-03-2024T17:06:10 - [MESSAGE][INFO] - Browser is launched
+
+09-03-2024T17:06:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-03-2024T17:06:11 - [MESSAGE][PASSED] - Current window maximized
+
+09-03-2024T17:06:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name"), username): Text 'test' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T17:06:15 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T17:06:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password"), password): Text 'secret_sauce' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T17:06:16 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T17:06:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T17:06:17 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T17:06:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909"), "Epic sadface: Username and password do not match any user in this service"): Actual text and expected text of test object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909' are matched.
+
+09-03-2024T17:06:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909' are matched.
+
+09-03-2024T17:06:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed")): Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed' is clicked on
+
+09-03-2024T17:07:17 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed' is clicked on
+
+09-03-2024T17:07:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-03-2024T17:07:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser" time="75.259" classname="Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser" status="PASSED">
+         <system-out><![CDATA[09-03-2024T17:07:17 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser: Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser
+
+09-03-2024T17:07:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-03-2024T17:07:17 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-03-2024T17:07:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-03-2024T17:07:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-03-2024T17:07:21 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T17:07:30 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T17:07:30 - [TEST_STEP][PASSED] - logInfo("Browser is launched"): Browser is launched
+
+09-03-2024T17:07:30 - [MESSAGE][INFO] - Browser is launched
+
+09-03-2024T17:07:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-03-2024T17:07:30 - [MESSAGE][PASSED] - Current window maximized
+
+09-03-2024T17:07:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name"), username): Text 'test2' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T17:07:31 - [MESSAGE][PASSED] - Text 'test2' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T17:07:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password"), password): Text 'secret_sauce' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T17:07:32 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T17:07:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T17:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T17:07:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909"), "Epic sadface: Username and password do not match any user in this service"): Actual text and expected text of test object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909' are matched.
+
+09-03-2024T17:08:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909' are matched.
+
+09-03-2024T17:08:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed")): Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed' is clicked on
+
+09-03-2024T17:08:32 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed' is clicked on
+
+09-03-2024T17:08:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-03-2024T17:08:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser" time="71.903" classname="Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser" status="PASSED">
+         <system-out><![CDATA[09-03-2024T17:08:33 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser: Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser
+
+09-03-2024T17:08:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-03-2024T17:08:33 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-03-2024T17:08:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-03-2024T17:08:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-03-2024T17:08:36 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T17:08:40 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T17:08:40 - [TEST_STEP][PASSED] - logInfo("Browser is launched"): Browser is launched
+
+09-03-2024T17:08:40 - [MESSAGE][INFO] - Browser is launched
+
+09-03-2024T17:08:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-03-2024T17:08:41 - [MESSAGE][PASSED] - Current window maximized
+
+09-03-2024T17:08:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name"), username): Text 'test3' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T17:08:41 - [MESSAGE][PASSED] - Text 'test3' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T17:08:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password"), password): Text 'secret_sauce' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T17:08:42 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T17:08:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T17:08:44 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T17:08:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909"), "Epic sadface: Username and password do not match any user in this service"): Actual text and expected text of test object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909' are matched.
+
+09-03-2024T17:09:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909' are matched.
+
+09-03-2024T17:09:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed")): Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed' is clicked on
+
+09-03-2024T17:09:44 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed' is clicked on
+
+09-03-2024T17:09:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-03-2024T17:09:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser" time="4.066" classname="Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser" status="FAILED">
+         <failure type="FAILED" message="Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to navigate to ''&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)&#xa;	at TC_31_Testdata_LoginWithInvalidUser.run(TC_31_Testdata_LoginWithInvalidUser:23)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1709984153417.run(TempTestSuite1709984153417.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: java.lang.IllegalArgumentException: Url cannot be null or empty&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[09-03-2024T17:09:59 - [TEST_CASE][FAILED] - Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser: Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at TC_31_Testdata_LoginWithInvalidUser.run(TC_31_Testdata_LoginWithInvalidUser:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709984153417.run(TempTestSuite1709984153417.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Url cannot be null or empty
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+09-03-2024T17:09:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-03-2024T17:09:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-03-2024T17:09:59 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-03-2024T17:10:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-03-2024T17:10:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-03-2024T17:10:03 - [TEST_STEP][FAILED] - navigateToUrl(url): Unable to navigate to '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at TC_31_Testdata_LoginWithInvalidUser.run(TC_31_Testdata_LoginWithInvalidUser:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709984153417.run(TempTestSuite1709984153417.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Url cannot be null or empty
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at Script1709984097060.run(Script1709984097060.groovy:23)
+	... 18 more
+)
+
+09-03-2024T17:10:03 - [MESSAGE][FAILED] - Unable to navigate to '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at TC_31_Testdata_LoginWithInvalidUser.run(TC_31_Testdata_LoginWithInvalidUser:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709984153417.run(TempTestSuite1709984153417.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Url cannot be null or empty
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at Script1709984097060.run(Script1709984097060.groovy:23)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_170553\\TS_31_Testdat_LoginWithInvalidUser\\20240309_170553\\1709984403149.png]]]]></system-out>
+         <system-err><![CDATA[09-03-2024T17:09:59 - [TEST_CASE][FAILED] - Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser: Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at TC_31_Testdata_LoginWithInvalidUser.run(TC_31_Testdata_LoginWithInvalidUser:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709984153417.run(TempTestSuite1709984153417.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Url cannot be null or empty
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser" time="4.59" classname="Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser" status="FAILED">
+         <failure type="FAILED" message="Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to navigate to ''&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)&#xa;	at TC_31_Testdata_LoginWithInvalidUser.run(TC_31_Testdata_LoginWithInvalidUser:23)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1709984153417.run(TempTestSuite1709984153417.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: java.lang.IllegalArgumentException: Url cannot be null or empty&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[09-03-2024T17:10:17 - [TEST_CASE][FAILED] - Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser: Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at TC_31_Testdata_LoginWithInvalidUser.run(TC_31_Testdata_LoginWithInvalidUser:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709984153417.run(TempTestSuite1709984153417.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Url cannot be null or empty
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+09-03-2024T17:10:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-03-2024T17:10:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-03-2024T17:10:18 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-03-2024T17:10:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-03-2024T17:10:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-03-2024T17:10:21 - [TEST_STEP][FAILED] - navigateToUrl(url): Unable to navigate to '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at TC_31_Testdata_LoginWithInvalidUser.run(TC_31_Testdata_LoginWithInvalidUser:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709984153417.run(TempTestSuite1709984153417.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Url cannot be null or empty
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at Script1709984097060.run(Script1709984097060.groovy:23)
+	... 18 more
+)
+
+09-03-2024T17:10:22 - [MESSAGE][FAILED] - Unable to navigate to '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at TC_31_Testdata_LoginWithInvalidUser.run(TC_31_Testdata_LoginWithInvalidUser:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709984153417.run(TempTestSuite1709984153417.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Url cannot be null or empty
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at Script1709984097060.run(Script1709984097060.groovy:23)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_170553\\TS_31_Testdat_LoginWithInvalidUser\\20240309_170553\\1709984421952.png]]]]></system-out>
+         <system-err><![CDATA[09-03-2024T17:10:17 - [TEST_CASE][FAILED] - Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser: Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at TC_31_Testdata_LoginWithInvalidUser.run(TC_31_Testdata_LoginWithInvalidUser:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709984153417.run(TempTestSuite1709984153417.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Url cannot be null or empty
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-03-2024T17:05:57 - [TEST_SUITE][FAILED] - TS_31_Testdat_LoginWithInvalidUser: Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at TC_31_Testdata_LoginWithInvalidUser.run(TC_31_Testdata_LoginWithInvalidUser:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709984153417.run(TempTestSuite1709984153417.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Url cannot be null or empty
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[09-03-2024T17:05:57 - [TEST_SUITE][FAILED] - TS_31_Testdat_LoginWithInvalidUser: Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at TC_31_Testdata_LoginWithInvalidUser.run(TC_31_Testdata_LoginWithInvalidUser:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709984153417.run(TempTestSuite1709984153417.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Url cannot be null or empty
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_31_Testdat_LoginWithInvalidUser" time="248.356" tests="3" failures="0" errors="0">
+   <testsuite name="TS_31_Testdat_LoginWithInvalidUser" tests="3" failures="0" errors="0" time="248.356" skipped="0" timestamp="09-03-2024T17:13:40" hostname="DJ793LJ - IN3233809W1.ey.net" id="Test Suites/TS_31_Testdat_LoginWithInvalidUser">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_171322\\TS_31_Testdat_LoginWithInvalidUser\\20240309_171323"/>
+         <property name="logFiles" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_171322\\TS_31_Testdat_LoginWithInvalidUser\\20240309_171323\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DJ793LJ - IN3233809W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Edge Chromium 122"/>
+         <property name="hostAddress" value="192.168.2.5"/>
+         <property name="sessionId" value="da573b41bd06335295d8a70d153cb8a3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser" time="81.052" classname="Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser" status="PASSED">
+         <system-out><![CDATA[09-03-2024T17:13:41 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser: Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser
+
+09-03-2024T17:13:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-03-2024T17:13:41 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-03-2024T17:13:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-03-2024T17:13:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-03-2024T17:13:46 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T17:13:55 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T17:13:55 - [TEST_STEP][PASSED] - logInfo("Browser is launched"): Browser is launched
+
+09-03-2024T17:13:55 - [MESSAGE][INFO] - Browser is launched
+
+09-03-2024T17:13:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-03-2024T17:13:56 - [MESSAGE][PASSED] - Current window maximized
+
+09-03-2024T17:13:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name"), username): Text 'test' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T17:13:57 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T17:13:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password"), password): Text 'secret_sauce' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T17:13:59 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T17:13:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T17:14:01 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T17:14:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909"), "Epic sadface: Username and password do not match any user in this service"): Actual text and expected text of test object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909' are matched.
+
+09-03-2024T17:14:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909' are matched.
+
+09-03-2024T17:14:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed")): Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed' is clicked on
+
+09-03-2024T17:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed' is clicked on
+
+09-03-2024T17:15:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-03-2024T17:15:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser" time="90.506" classname="Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser" status="PASSED">
+         <system-out><![CDATA[09-03-2024T17:15:02 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser: Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser
+
+09-03-2024T17:15:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-03-2024T17:15:02 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-03-2024T17:15:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-03-2024T17:15:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-03-2024T17:15:06 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T17:15:26 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T17:15:26 - [TEST_STEP][PASSED] - logInfo("Browser is launched"): Browser is launched
+
+09-03-2024T17:15:26 - [MESSAGE][INFO] - Browser is launched
+
+09-03-2024T17:15:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-03-2024T17:15:26 - [MESSAGE][PASSED] - Current window maximized
+
+09-03-2024T17:15:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name"), username): Text 'test2' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T17:15:27 - [MESSAGE][PASSED] - Text 'test2' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T17:15:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password"), password): Text 'secret_sauce' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T17:15:30 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T17:15:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T17:15:32 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T17:15:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909"), "Epic sadface: Username and password do not match any user in this service"): Actual text and expected text of test object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909' are matched.
+
+09-03-2024T17:16:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909' are matched.
+
+09-03-2024T17:16:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed")): Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed' is clicked on
+
+09-03-2024T17:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed' is clicked on
+
+09-03-2024T17:16:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-03-2024T17:16:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser" time="76.272" classname="Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser" status="PASSED">
+         <system-out><![CDATA[09-03-2024T17:16:32 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser: Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser
+
+09-03-2024T17:16:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-03-2024T17:16:33 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-03-2024T17:16:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-03-2024T17:16:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-03-2024T17:16:37 - [TEST_STEP][PASSED] - navigateToUrl(url, CONTINUE_ON_FAILURE): Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T17:16:46 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T17:16:46 - [TEST_STEP][PASSED] - logInfo("Browser is launched"): Browser is launched
+
+09-03-2024T17:16:46 - [MESSAGE][INFO] - Browser is launched
+
+09-03-2024T17:16:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-03-2024T17:16:46 - [MESSAGE][PASSED] - Current window maximized
+
+09-03-2024T17:16:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name"), username): Text 'test3' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T17:16:47 - [MESSAGE][PASSED] - Text 'test3' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T17:16:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password"), password): Text 'secret_sauce' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T17:16:48 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T17:16:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T17:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T17:16:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909"), "Epic sadface: Username and password do not match any user in this service"): Actual text and expected text of test object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909' are matched.
+
+09-03-2024T17:17:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909' are matched.
+
+09-03-2024T17:17:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed")): Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed' is clicked on
+
+09-03-2024T17:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed' is clicked on
+
+09-03-2024T17:17:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-03-2024T17:17:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-03-2024T17:13:40 - [TEST_SUITE][PASSED] - TS_31_Testdat_LoginWithInvalidUser: Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
