@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_31_Testdata_LoginWithInvalidUser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2318d7b3-2541-4770-bffc-13993ac093ab</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>c321e6ce-196e-41d5-a627-1574bcef003b</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/InternalData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>c321e6ce-196e-41d5-a627-1574bcef003b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>url</value>
+      <variableId>62309cff-d847-46df-a20b-0f5779387e22</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c321e6ce-196e-41d5-a627-1574bcef003b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>f157d581-fc93-42e9-a19d-2f2cc3e6644d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c321e6ce-196e-41d5-a627-1574bcef003b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>830437b4-4790-4d26-a04f-35783ae4498e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.saucedemo.com/'</defaultValue>
+      <description></description>
+      <id>62309cff-d847-46df-a20b-0f5779387e22</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f157d581-fc93-42e9-a19d-2f2cc3e6644d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>830437b4-4790-4d26-a04f-35783ae4498e</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

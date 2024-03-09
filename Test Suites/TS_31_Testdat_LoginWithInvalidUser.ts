@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_22_SwagLab_LoginWithInvalidUser</name>
+   <name>TS_31_Testdat_LoginWithInvalidUser</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,29 +10,38 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>40b8dff5-ef9a-412f-bccb-8886f34f78bc</testSuiteGuid>
+   <testSuiteGuid>29048ace-abe5-410b-9d19-c9cb22a1f9e6</testSuiteGuid>
    <testCaseLink>
-      <guid>e2723c45-06ca-4eda-8d74-470b581a7051</guid>
+      <guid>71900825-558e-440c-b3a2-022d8c2eeb4f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SauceLabsApp/TC_31_Testdata_LoginWithInvalidUser</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7e55432b-67c7-460e-b3ce-999355c5f01c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/InternalData</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>7e55432b-67c7-460e-b3ce-999355c5f01c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>url</value>
          <variableId>62309cff-d847-46df-a20b-0f5779387e22</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>7e55432b-67c7-460e-b3ce-999355c5f01c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
          <variableId>f157d581-fc93-42e9-a19d-2f2cc3e6644d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>7e55432b-67c7-460e-b3ce-999355c5f01c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
          <variableId>830437b4-4790-4d26-a04f-35783ae4498e</variableId>
       </variableLink>
    </testCaseLink>
