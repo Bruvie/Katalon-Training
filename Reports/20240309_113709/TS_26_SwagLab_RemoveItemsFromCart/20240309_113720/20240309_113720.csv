@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_26_SwagLab_RemoveItemsFromCart,Edge Chromium 122,,,09-03-2024 11:45:04,09-03-2024 11:45:42,38.018s,PASSED
+,,,,,,,
+Test Cases/SauceLabsApp/TC_26_RemoveItemsFromCart,Edge Chromium 122,,,09-03-2024 11:45:04,09-03-2024 11:45:42,37.493s,PASSED
+"callTestCase(findTestCase(""SauceLabsApp/TC_21_LoginWithValidUser""), [:], STOP_ON_FAILURE)",Edge Chromium 122,,,09-03-2024 11:45:05,09-03-2024 11:45:24,18.224s,PASSED
+"click(findTestObject(""Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Add to cart""))",Edge Chromium 122,,,09-03-2024 11:45:24,09-03-2024 11:45:26,2.038s,PASSED
+"click(findTestObject(""Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Add to cart_1""))",Edge Chromium 122,,,09-03-2024 11:45:26,09-03-2024 11:45:28,1.946s,PASSED
+"verifyElementText(findTestObject(""Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Remove""), ""Remove"")",Edge Chromium 122,,,09-03-2024 11:45:28,09-03-2024 11:45:29,1.954s,PASSED
+"click(findTestObject(""Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Remove""))",Edge Chromium 122,,,09-03-2024 11:45:29,09-03-2024 11:45:32,2.162s,PASSED
+"click(findTestObject(""Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/a_1""))",Edge Chromium 122,,,09-03-2024 11:45:32,09-03-2024 11:45:34,2.048s,PASSED
+"verifyElementText(findTestObject(""Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/span_Your Cart""), ""Your Cart"")",Edge Chromium 122,,,09-03-2024 11:45:34,09-03-2024 11:45:36,1.833s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/div_1""))",Edge Chromium 122,,,09-03-2024 11:45:36,09-03-2024 11:45:38,2.063s,PASSED
+"verifyElementText(findTestObject(""Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Remove_1""), ""Remove"")",Edge Chromium 122,,,09-03-2024 11:45:38,09-03-2024 11:45:40,1.907s,PASSED
+"click(findTestObject(""Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Remove_1""))",Edge Chromium 122,,,09-03-2024 11:45:40,09-03-2024 11:45:42,2.095s,PASSED
+closeBrowser(),Edge Chromium 122,,,09-03-2024 11:45:42,09-03-2024 11:45:42,0.331s,PASSED

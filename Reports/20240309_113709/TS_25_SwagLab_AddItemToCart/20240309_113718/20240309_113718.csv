@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_25_SwagLab_AddItemToCart,Edge Chromium 122,,,09-03-2024 11:44:40,09-03-2024 11:44:55,15.016s,PASSED
+,,,,,,,
+Test Cases/SauceLabsApp/TC_25_AddItemToCart,Edge Chromium 122,,,09-03-2024 11:44:40,09-03-2024 11:44:55,14.796s,PASSED
+"callTestCase(findTestCase(""SauceLabsApp/TC_21_LoginWithValidUser""), [:], STOP_ON_FAILURE)",Edge Chromium 122,,,09-03-2024 11:44:40,09-03-2024 11:44:53,12.419s,PASSED
+"click(findTestObject(""Object Repository/SwagLab_AddItemtToCart/Page_Swag Labs/button_Add to cart""))",Edge Chromium 122,,,09-03-2024 11:44:53,09-03-2024 11:44:53,0.347s,PASSED
+"click(findTestObject(""Object Repository/SwagLab_AddItemtToCart/Page_Swag Labs/a_1""))",Edge Chromium 122,,,09-03-2024 11:44:53,09-03-2024 11:44:54,0.472s,PASSED
+"verifyElementText(findTestObject(""Object Repository/SwagLab_AddItemtToCart/Page_Swag Labs/span_Your Cart""), ""Your Cart"")",Edge Chromium 122,,,09-03-2024 11:44:54,09-03-2024 11:44:54,0.449s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/SwagLab_AddItemtToCart/Page_Swag Labs/div_1""))",Edge Chromium 122,,,09-03-2024 11:44:54,09-03-2024 11:44:54,0.333s,PASSED
+closeBrowser(),Edge Chromium 122,,,09-03-2024 11:44:54,09-03-2024 11:44:55,0.408s,PASSED

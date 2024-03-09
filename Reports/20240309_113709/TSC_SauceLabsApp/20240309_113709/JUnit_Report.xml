@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSC_SauceLabsApp" time="664.477" tests="9" failures="0" errors="0">
+   <testsuite name="TS_21_SwagLab_LoginWithValidUser" tests="1" failures="0" errors="0" time="15.946" skipped="0" timestamp="09-03-2024T11:37:34" hostname="DJ793LJ - IN3233809W1.ey.net" id="Test Suites/TS_21_SwagLab_LoginWithValidUser">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_113709\\TS_21_SwagLab_LoginWithValidUser\\20240309_113710"/>
+         <property name="logFiles" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_113709\\TS_21_SwagLab_LoginWithValidUser\\20240309_113710\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DJ793LJ - IN3233809W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Edge Chromium 122"/>
+         <property name="hostAddress" value="192.168.2.5"/>
+         <property name="sessionId" value="09ddceeb4ef875484b3399d00c244bde"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SauceLabsApp/TC_21_LoginWithValidUser" time="15.71" classname="Test Cases/SauceLabsApp/TC_21_LoginWithValidUser" status="PASSED">
+         <system-out><![CDATA[09-03-2024T11:37:34 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_21_LoginWithValidUser: Test Cases/SauceLabsApp/TC_21_LoginWithValidUser
+
+09-03-2024T11:37:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-03-2024T11:37:35 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-03-2024T11:37:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-03-2024T11:37:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-03-2024T11:37:38 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T11:37:40 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T11:37:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-03-2024T11:37:44 - [MESSAGE][PASSED] - Current window maximized
+
+09-03-2024T11:37:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:37:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:37:45 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:37:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T11:37:46 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T11:37:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:37:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:37:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T11:37:48 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T11:37:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is visible
+
+09-03-2024T11:37:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:37:49 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is visible
+
+09-03-2024T11:37:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:37:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:37:50 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-03-2024T11:37:34 - [TEST_SUITE][PASSED] - TS_21_SwagLab_LoginWithValidUser: Test Cases/SauceLabsApp/TC_21_LoginWithValidUser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_22_SwagLab_LoginWithInvalidUser" tests="1" failures="0" errors="0" time="303.237" skipped="0" timestamp="09-03-2024T11:37:58" hostname="DJ793LJ - IN3233809W1.ey.net" id="Test Suites/TS_22_SwagLab_LoginWithInvalidUser">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_113709\\TS_22_SwagLab_LoginWithInvalidUser\\20240309_113712"/>
+         <property name="logFiles" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_113709\\TS_22_SwagLab_LoginWithInvalidUser\\20240309_113712\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DJ793LJ - IN3233809W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Edge Chromium 122"/>
+         <property name="hostAddress" value="192.168.2.5"/>
+         <property name="sessionId" value="0437a77f02dfc1ab82154c543299a5a3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SauceLabsApp/TC_22_LoginWithInvalidUser" time="302.959" classname="Test Cases/SauceLabsApp/TC_22_LoginWithInvalidUser" status="PASSED">
+         <system-out><![CDATA[09-03-2024T11:37:59 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_22_LoginWithInvalidUser: Test Cases/SauceLabsApp/TC_22_LoginWithInvalidUser
+
+09-03-2024T11:37:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-03-2024T11:38:00 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-03-2024T11:38:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-03-2024T11:38:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-03-2024T11:38:03 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T11:38:07 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T11:38:07 - [TEST_STEP][PASSED] - logInfo("Browser is launched"): Browser is launched
+
+09-03-2024T11:38:07 - [MESSAGE][INFO] - Browser is launched
+
+09-03-2024T11:38:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-03-2024T11:38:07 - [MESSAGE][PASSED] - Current window maximized
+
+09-03-2024T11:38:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name"), "locked_out_user"): Text 'locked_out_user' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T11:38:08 - [MESSAGE][PASSED] - Text 'locked_out_user' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T11:38:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:38:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:38:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T11:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T11:38:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Sorry, this user has been l_a91fd7"), "Epic sadface: Sorry, this user has been locked out."): Actual text and expected text of test object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Sorry, this user has been l_a91fd7' are matched.
+
+09-03-2024T11:38:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Sorry, this user has been l_a91fd7' are matched.
+
+09-03-2024T11:38:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name"), "problem_user"): Text 'problem_user' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T11:39:43 - [MESSAGE][PASSED] - Text 'problem_user' is set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T11:39:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:40:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:40:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Sorry, this user has been _e43fcb")): Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Sorry, this user has been _e43fcb' is clicked on
+
+09-03-2024T11:41:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: p'. Please recheck the objects properties to make sure the desired element is located. 
+
+09-03-2024T11:41:14 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Sorry, this user has been _e43fcb'. Try using Self-healing.
+
+09-03-2024T11:41:21 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Sorry, this user has been _e43fcb' was broken. Propose an alternative one: '//div[@id='root']/div/div[2]/div'.
+
+09-03-2024T11:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Sorry, this user has been _e43fcb' is clicked on
+
+09-03-2024T11:41:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FFY5JMlsXrHQ=="): Text ****** has been set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:41:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:41:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T11:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T11:42:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909"), "Epic sadface: Username and password do not match any user in this service"): Actual text and expected text of test object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909' are matched.
+
+09-03-2024T11:42:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909' are matched.
+
+09-03-2024T11:42:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed")): Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed' is clicked on
+
+09-03-2024T11:43:01 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_InvalidLogins/Page_Swag Labs/div_Epic sadface Username and password do n_e703ed' is clicked on
+
+09-03-2024T11:43:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-03-2024T11:43:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-03-2024T11:37:58 - [TEST_SUITE][PASSED] - TS_22_SwagLab_LoginWithInvalidUser: Test Cases/SauceLabsApp/TC_22_LoginWithInvalidUser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_23_SwagLab_VerifyHomePage" tests="1" failures="0" errors="0" time="32.249" skipped="0" timestamp="09-03-2024T11:43:08" hostname="DJ793LJ - IN3233809W1.ey.net" id="Test Suites/TS_23_SwagLab_VerifyHomePage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_113709\\TS_23_SwagLab_VerifyHomePage\\20240309_113714"/>
+         <property name="logFiles" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_113709\\TS_23_SwagLab_VerifyHomePage\\20240309_113714\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DJ793LJ - IN3233809W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Edge Chromium 122"/>
+         <property name="hostAddress" value="192.168.2.5"/>
+         <property name="sessionId" value="9b8269285b08fc79749a2619bd1a7302"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SauceLabsApp/TC_23_VerfiyHomePage" time="32.036" classname="Test Cases/SauceLabsApp/TC_23_VerfiyHomePage" status="PASSED">
+         <system-out><![CDATA[09-03-2024T11:43:08 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_23_VerfiyHomePage: Test Cases/SauceLabsApp/TC_23_VerfiyHomePage
+
+09-03-2024T11:43:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SauceLabsApp/TC_21_LoginWithValidUser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SauceLabsApp/TC_21_LoginWithValidUser' successfully
+
+09-03-2024T11:43:08 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_21_LoginWithValidUser: Test Cases/SauceLabsApp/TC_21_LoginWithValidUser
+
+09-03-2024T11:43:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-03-2024T11:43:09 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-03-2024T11:43:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-03-2024T11:43:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-03-2024T11:43:12 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T11:43:15 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T11:43:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-03-2024T11:43:15 - [MESSAGE][PASSED] - Current window maximized
+
+09-03-2024T11:43:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:43:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:43:18 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:43:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T11:43:18 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T11:43:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:43:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:43:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T11:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T11:43:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is visible
+
+09-03-2024T11:43:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:43:23 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is visible
+
+09-03-2024T11:43:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:43:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:43:25 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:43:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SauceLabsApp/TC_21_LoginWithValidUser' successfully
+
+09-03-2024T11:43:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/button_Open Menu")): Object: 'Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/button_Open Menu' is clicked on
+
+09-03-2024T11:43:27 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/button_Open Menu' is clicked on
+
+09-03-2024T11:43:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/a_All Items"), "All Items"): Actual text and expected text of test object 'Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/a_All Items' are matched.
+
+09-03-2024T11:43:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/a_All Items' are matched.
+
+09-03-2024T11:43:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/a_About"), "About"): Actual text and expected text of test object 'Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/a_About' are matched.
+
+09-03-2024T11:43:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/a_About' are matched.
+
+09-03-2024T11:43:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/a_Logout"), "Logout"): Actual text and expected text of test object 'Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/a_Logout' are matched.
+
+09-03-2024T11:43:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/a_Logout' are matched.
+
+09-03-2024T11:43:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/a_Reset App State"), "Reset App State"): Actual text and expected text of test object 'Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/a_Reset App State' are matched.
+
+09-03-2024T11:43:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/a_Reset App State' are matched.
+
+09-03-2024T11:43:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/button_Close Menu")): Object: 'Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/button_Close Menu' is clicked on
+
+09-03-2024T11:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/button_Close Menu' is clicked on
+
+09-03-2024T11:43:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/a_Swag Labs_shopping_cart_link")): Object 'Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/a_Swag Labs_shopping_cart_link' is visible
+
+09-03-2024T11:43:40 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_VerifyHomePage/Page_Swag Labs/a_Swag Labs_shopping_cart_link' is visible
+
+09-03-2024T11:43:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-03-2024T11:43:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-03-2024T11:43:08 - [TEST_SUITE][PASSED] - TS_23_SwagLab_VerifyHomePage: Test Cases/SauceLabsApp/TC_23_VerfiyHomePage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_24_SwagLab_VerifyAboutPage" tests="1" failures="0" errors="0" time="49.044" skipped="0" timestamp="09-03-2024T11:43:45" hostname="DJ793LJ - IN3233809W1.ey.net" id="Test Suites/TS_24_SwagLab_VerifyAboutPage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_113709\\TS_24_SwagLab_VerifyAboutPage\\20240309_113716"/>
+         <property name="logFiles" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_113709\\TS_24_SwagLab_VerifyAboutPage\\20240309_113716\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DJ793LJ - IN3233809W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Edge Chromium 122"/>
+         <property name="hostAddress" value="192.168.2.5"/>
+         <property name="sessionId" value="fec37fd5aa767dab441f0796fbd92369"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SauceLabsApp/TC_24_Verify_AboutPage" time="48.823" classname="Test Cases/SauceLabsApp/TC_24_Verify_AboutPage" status="PASSED">
+         <system-out><![CDATA[09-03-2024T11:43:45 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_24_Verify_AboutPage: Test Cases/SauceLabsApp/TC_24_Verify_AboutPage
+
+09-03-2024T11:43:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SauceLabsApp/TC_21_LoginWithValidUser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SauceLabsApp/TC_21_LoginWithValidUser' successfully
+
+09-03-2024T11:43:46 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_21_LoginWithValidUser: Test Cases/SauceLabsApp/TC_21_LoginWithValidUser
+
+09-03-2024T11:43:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-03-2024T11:43:46 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-03-2024T11:43:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-03-2024T11:43:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-03-2024T11:43:49 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T11:43:52 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T11:43:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-03-2024T11:43:52 - [MESSAGE][PASSED] - Current window maximized
+
+09-03-2024T11:43:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:43:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:43:53 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:43:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T11:43:56 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T11:43:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:43:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:43:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T11:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T11:44:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is visible
+
+09-03-2024T11:44:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:44:02 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is visible
+
+09-03-2024T11:44:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:44:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:44:04 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:44:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SauceLabsApp/TC_21_LoginWithValidUser' successfully
+
+09-03-2024T11:44:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_Verify_AboutPage/Page_Swag Labs/button_Open Menu")): Object: 'Object Repository/SwagLab_Verify_AboutPage/Page_Swag Labs/button_Open Menu' is clicked on
+
+09-03-2024T11:44:06 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_Verify_AboutPage/Page_Swag Labs/button_Open Menu' is clicked on
+
+09-03-2024T11:44:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_Verify_AboutPage/Page_Swag Labs/a_About")): Object: 'Object Repository/SwagLab_Verify_AboutPage/Page_Swag Labs/a_About' is clicked on
+
+09-03-2024T11:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_Verify_AboutPage/Page_Swag Labs/a_About' is clicked on
+
+09-03-2024T11:44:13 - [TEST_STEP][PASSED] - navigateToUrl("https://saucelabs.com/"): Navigate to 'https://saucelabs.com/' successfully
+
+09-03-2024T11:44:31 - [MESSAGE][PASSED] - Navigate to 'https://saucelabs.com/' successfully
+
+09-03-2024T11:44:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/SwagLab_Verify_AboutPage/Page_Sauce Labs Cross Browser Testing, Sele_e8ee84/div_Products_MuiBox-root css-qkbq7h")): Object 'Object Repository/SwagLab_Verify_AboutPage/Page_Sauce Labs Cross Browser Testing, Sele_e8ee84/div_Products_MuiBox-root css-qkbq7h' is visible
+
+09-03-2024T11:44:34 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_Verify_AboutPage/Page_Sauce Labs Cross Browser Testing, Sele_e8ee84/div_Products_MuiBox-root css-qkbq7h' is visible
+
+09-03-2024T11:44:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-03-2024T11:44:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-03-2024T11:43:45 - [TEST_SUITE][PASSED] - TS_24_SwagLab_VerifyAboutPage: Test Cases/SauceLabsApp/TC_24_Verify_AboutPage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_25_SwagLab_AddItemToCart" tests="1" failures="0" errors="0" time="15.016" skipped="0" timestamp="09-03-2024T11:44:40" hostname="DJ793LJ - IN3233809W1.ey.net" id="Test Suites/TS_25_SwagLab_AddItemToCart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_113709\\TS_25_SwagLab_AddItemToCart\\20240309_113718"/>
+         <property name="logFiles" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_113709\\TS_25_SwagLab_AddItemToCart\\20240309_113718\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DJ793LJ - IN3233809W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Edge Chromium 122"/>
+         <property name="hostAddress" value="192.168.2.5"/>
+         <property name="sessionId" value="b4258e0b2b965236774b3f97152b9c7b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SauceLabsApp/TC_25_AddItemToCart" time="14.796" classname="Test Cases/SauceLabsApp/TC_25_AddItemToCart" status="PASSED">
+         <system-out><![CDATA[09-03-2024T11:44:40 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_25_AddItemToCart: Test Cases/SauceLabsApp/TC_25_AddItemToCart
+
+09-03-2024T11:44:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SauceLabsApp/TC_21_LoginWithValidUser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SauceLabsApp/TC_21_LoginWithValidUser' successfully
+
+09-03-2024T11:44:41 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_21_LoginWithValidUser: Test Cases/SauceLabsApp/TC_21_LoginWithValidUser
+
+09-03-2024T11:44:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-03-2024T11:44:41 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-03-2024T11:44:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-03-2024T11:44:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-03-2024T11:44:44 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T11:44:49 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T11:44:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-03-2024T11:44:49 - [MESSAGE][PASSED] - Current window maximized
+
+09-03-2024T11:44:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:44:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:44:49 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:44:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T11:44:50 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T11:44:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:44:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:44:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T11:44:51 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T11:44:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is visible
+
+09-03-2024T11:44:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:44:52 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is visible
+
+09-03-2024T11:44:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:44:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:44:53 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:44:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SauceLabsApp/TC_21_LoginWithValidUser' successfully
+
+09-03-2024T11:44:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_AddItemtToCart/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/SwagLab_AddItemtToCart/Page_Swag Labs/button_Add to cart' is clicked on
+
+09-03-2024T11:44:53 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_AddItemtToCart/Page_Swag Labs/button_Add to cart' is clicked on
+
+09-03-2024T11:44:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_AddItemtToCart/Page_Swag Labs/a_1")): Object: 'Object Repository/SwagLab_AddItemtToCart/Page_Swag Labs/a_1' is clicked on
+
+09-03-2024T11:44:54 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_AddItemtToCart/Page_Swag Labs/a_1' is clicked on
+
+09-03-2024T11:44:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_AddItemtToCart/Page_Swag Labs/span_Your Cart"), "Your Cart"): Actual text and expected text of test object 'Object Repository/SwagLab_AddItemtToCart/Page_Swag Labs/span_Your Cart' are matched.
+
+09-03-2024T11:44:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_AddItemtToCart/Page_Swag Labs/span_Your Cart' are matched.
+
+09-03-2024T11:44:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/SwagLab_AddItemtToCart/Page_Swag Labs/div_1")): Object 'Object Repository/SwagLab_AddItemtToCart/Page_Swag Labs/div_1' is visible
+
+09-03-2024T11:44:54 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_AddItemtToCart/Page_Swag Labs/div_1' is visible
+
+09-03-2024T11:44:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-03-2024T11:44:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-03-2024T11:44:40 - [TEST_SUITE][PASSED] - TS_25_SwagLab_AddItemToCart: Test Cases/SauceLabsApp/TC_25_AddItemToCart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_26_SwagLab_RemoveItemsFromCart" tests="1" failures="0" errors="0" time="38.018" skipped="0" timestamp="09-03-2024T11:45:04" hostname="DJ793LJ - IN3233809W1.ey.net" id="Test Suites/TS_26_SwagLab_RemoveItemsFromCart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_113709\\TS_26_SwagLab_RemoveItemsFromCart\\20240309_113720"/>
+         <property name="logFiles" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_113709\\TS_26_SwagLab_RemoveItemsFromCart\\20240309_113720\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DJ793LJ - IN3233809W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Edge Chromium 122"/>
+         <property name="hostAddress" value="192.168.2.5"/>
+         <property name="sessionId" value="4ce00c78992213facefa750aa3a4e4fb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SauceLabsApp/TC_26_RemoveItemsFromCart" time="37.493" classname="Test Cases/SauceLabsApp/TC_26_RemoveItemsFromCart" status="PASSED">
+         <system-out><![CDATA[09-03-2024T11:45:04 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_26_RemoveItemsFromCart: Test Cases/SauceLabsApp/TC_26_RemoveItemsFromCart
+
+09-03-2024T11:45:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SauceLabsApp/TC_21_LoginWithValidUser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SauceLabsApp/TC_21_LoginWithValidUser' successfully
+
+09-03-2024T11:45:06 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_21_LoginWithValidUser: Test Cases/SauceLabsApp/TC_21_LoginWithValidUser
+
+09-03-2024T11:45:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-03-2024T11:45:06 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-03-2024T11:45:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-03-2024T11:45:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-03-2024T11:45:10 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T11:45:14 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T11:45:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-03-2024T11:45:14 - [MESSAGE][PASSED] - Current window maximized
+
+09-03-2024T11:45:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:45:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:45:15 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:45:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T11:45:16 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T11:45:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:45:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:45:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T11:45:20 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T11:45:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is visible
+
+09-03-2024T11:45:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:45:21 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is visible
+
+09-03-2024T11:45:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:45:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:45:24 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:45:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SauceLabsApp/TC_21_LoginWithValidUser' successfully
+
+09-03-2024T11:45:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Add to cart' is clicked on
+
+09-03-2024T11:45:26 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Add to cart' is clicked on
+
+09-03-2024T11:45:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Add to cart_1")): Object: 'Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Add to cart_1' is clicked on
+
+09-03-2024T11:45:28 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Add to cart_1' is clicked on
+
+09-03-2024T11:45:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Remove"), "Remove"): Actual text and expected text of test object 'Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Remove' are matched.
+
+09-03-2024T11:45:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Remove' are matched.
+
+09-03-2024T11:45:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Remove")): Object: 'Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Remove' is clicked on
+
+09-03-2024T11:45:32 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Remove' is clicked on
+
+09-03-2024T11:45:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/a_1")): Object: 'Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/a_1' is clicked on
+
+09-03-2024T11:45:34 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/a_1' is clicked on
+
+09-03-2024T11:45:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/span_Your Cart"), "Your Cart"): Actual text and expected text of test object 'Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/span_Your Cart' are matched.
+
+09-03-2024T11:45:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/span_Your Cart' are matched.
+
+09-03-2024T11:45:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/div_1")): Object 'Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/div_1' is visible
+
+09-03-2024T11:45:38 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/div_1' is visible
+
+09-03-2024T11:45:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Remove_1"), "Remove"): Actual text and expected text of test object 'Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Remove_1' are matched.
+
+09-03-2024T11:45:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Remove_1' are matched.
+
+09-03-2024T11:45:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Remove_1")): Object: 'Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Remove_1' is clicked on
+
+09-03-2024T11:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_RemoveItemsFromCart/Page_Swag Labs/button_Remove_1' is clicked on
+
+09-03-2024T11:45:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-03-2024T11:45:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-03-2024T11:45:04 - [TEST_SUITE][PASSED] - TS_26_SwagLab_RemoveItemsFromCart: Test Cases/SauceLabsApp/TC_26_RemoveItemsFromCart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_27_SwagLab_VerifyCheckoutPage" tests="1" failures="0" errors="0" time="44.102" skipped="0" timestamp="09-03-2024T11:45:59" hostname="DJ793LJ - IN3233809W1.ey.net" id="Test Suites/TS_27_SwagLab_VerifyCheckoutPage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_113709\\TS_27_SwagLab_VerifyCheckoutPage\\20240309_113722"/>
+         <property name="logFiles" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_113709\\TS_27_SwagLab_VerifyCheckoutPage\\20240309_113722\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DJ793LJ - IN3233809W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Edge Chromium 122"/>
+         <property name="hostAddress" value="192.168.2.5"/>
+         <property name="sessionId" value="df80ec05fe2def2e3772918e6c7f7c19"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SauceLabsApp/TC_27_VerifyCheckoutPage" time="43.895" classname="Test Cases/SauceLabsApp/TC_27_VerifyCheckoutPage" status="PASSED">
+         <system-out><![CDATA[09-03-2024T11:45:59 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_27_VerifyCheckoutPage: Test Cases/SauceLabsApp/TC_27_VerifyCheckoutPage
+
+09-03-2024T11:45:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SauceLabsApp/TC_21_LoginWithValidUser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SauceLabsApp/TC_21_LoginWithValidUser' successfully
+
+09-03-2024T11:46:00 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_21_LoginWithValidUser: Test Cases/SauceLabsApp/TC_21_LoginWithValidUser
+
+09-03-2024T11:46:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-03-2024T11:46:00 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-03-2024T11:46:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-03-2024T11:46:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-03-2024T11:46:03 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T11:46:05 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T11:46:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-03-2024T11:46:08 - [MESSAGE][PASSED] - Current window maximized
+
+09-03-2024T11:46:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:46:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:46:08 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:46:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T11:46:09 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T11:46:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:46:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:46:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T11:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T11:46:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is visible
+
+09-03-2024T11:46:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:46:12 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is visible
+
+09-03-2024T11:46:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:46:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:46:12 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:46:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SauceLabsApp/TC_21_LoginWithValidUser' successfully
+
+09-03-2024T11:46:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/button_Add to cart' is clicked on
+
+09-03-2024T11:46:15 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/button_Add to cart' is clicked on
+
+09-03-2024T11:46:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/a_1")): Object: 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/a_1' is clicked on
+
+09-03-2024T11:46:17 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/a_1' is clicked on
+
+09-03-2024T11:46:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/button_Checkout")): Object: 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/button_Checkout' is clicked on
+
+09-03-2024T11:46:19 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/button_Checkout' is clicked on
+
+09-03-2024T11:46:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/span_Checkout Your Information"), "Checkout: Your Information"): Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/span_Checkout Your Information' are matched.
+
+09-03-2024T11:46:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/span_Checkout Your Information' are matched.
+
+09-03-2024T11:46:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Checkout Your Information_firstName"), "Bruvie"): Text 'Bruvie' is set on object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+09-03-2024T11:46:25 - [MESSAGE][PASSED] - Text 'Bruvie' is set on object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+09-03-2024T11:46:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Checkout Your Information_lastName"), "MArtins"): Text 'MArtins' is set on object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+09-03-2024T11:46:29 - [MESSAGE][PASSED] - Text 'MArtins' is set on object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+09-03-2024T11:46:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Checkout Your Information_postalCode"), "433333"): Text '433333' is set on object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+09-03-2024T11:46:33 - [MESSAGE][PASSED] - Text '433333' is set on object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+09-03-2024T11:46:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Cancel_continue")): Object: 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Cancel_continue' is clicked on
+
+09-03-2024T11:46:35 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Cancel_continue' is clicked on
+
+09-03-2024T11:46:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/span_Checkout Overview"), "Checkout: Overview"): Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/span_Checkout Overview' are matched.
+
+09-03-2024T11:46:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/span_Checkout Overview' are matched.
+
+09-03-2024T11:46:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/div_Payment Information"), "Payment Information"): Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/div_Payment Information' are matched.
+
+09-03-2024T11:46:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/div_Payment Information' are matched.
+
+09-03-2024T11:46:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/div_Shipping Information"), "Shipping Information"): Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/div_Shipping Information' are matched.
+
+09-03-2024T11:46:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/div_Shipping Information' are matched.
+
+09-03-2024T11:46:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/div_Price Total"), "Price Total"): Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/div_Price Total' are matched.
+
+09-03-2024T11:46:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/div_Price Total' are matched.
+
+09-03-2024T11:46:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-03-2024T11:46:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-03-2024T11:45:59 - [TEST_SUITE][PASSED] - TS_27_SwagLab_VerifyCheckoutPage: Test Cases/SauceLabsApp/TC_27_VerifyCheckoutPage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_28_SwagLab_OrderItem" tests="1" failures="0" errors="0" time="56.598" skipped="0" timestamp="09-03-2024T11:46:48" hostname="DJ793LJ - IN3233809W1.ey.net" id="Test Suites/TS_28_SwagLab_OrderItem">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_113709\\TS_28_SwagLab_OrderItem\\20240309_113725"/>
+         <property name="logFiles" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_113709\\TS_28_SwagLab_OrderItem\\20240309_113725\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DJ793LJ - IN3233809W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Edge Chromium 122"/>
+         <property name="hostAddress" value="192.168.2.5"/>
+         <property name="sessionId" value="8da65aeb66761abfb3fbf9a1f9611951"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SauceLabsApp/TC_28_OrderItem" time="56.393" classname="Test Cases/SauceLabsApp/TC_28_OrderItem" status="PASSED">
+         <system-out><![CDATA[09-03-2024T11:46:49 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_28_OrderItem: Test Cases/SauceLabsApp/TC_28_OrderItem
+
+09-03-2024T11:46:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SauceLabsApp/TC_21_LoginWithValidUser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SauceLabsApp/TC_21_LoginWithValidUser' successfully
+
+09-03-2024T11:46:49 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_21_LoginWithValidUser: Test Cases/SauceLabsApp/TC_21_LoginWithValidUser
+
+09-03-2024T11:46:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-03-2024T11:46:49 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-03-2024T11:46:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-03-2024T11:46:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-03-2024T11:46:52 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T11:46:57 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T11:46:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-03-2024T11:46:57 - [MESSAGE][PASSED] - Current window maximized
+
+09-03-2024T11:46:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:46:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:46:58 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:46:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T11:47:01 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T11:47:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:47:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:47:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T11:47:05 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T11:47:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is visible
+
+09-03-2024T11:47:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:47:07 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is visible
+
+09-03-2024T11:47:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:47:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:47:09 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:47:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SauceLabsApp/TC_21_LoginWithValidUser' successfully
+
+09-03-2024T11:47:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/button_Add to cart' is clicked on
+
+09-03-2024T11:47:11 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/button_Add to cart' is clicked on
+
+09-03-2024T11:47:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/a_1")): Object: 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/a_1' is clicked on
+
+09-03-2024T11:47:13 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/a_1' is clicked on
+
+09-03-2024T11:47:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/button_Checkout")): Object: 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/button_Checkout' is clicked on
+
+09-03-2024T11:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/button_Checkout' is clicked on
+
+09-03-2024T11:47:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/span_Checkout Your Information"), "Checkout: Your Information"): Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/span_Checkout Your Information' are matched.
+
+09-03-2024T11:47:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/span_Checkout Your Information' are matched.
+
+09-03-2024T11:47:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Checkout Your Information_firstName"), "Bruvie"): Text 'Bruvie' is set on object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+09-03-2024T11:47:21 - [MESSAGE][PASSED] - Text 'Bruvie' is set on object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+09-03-2024T11:47:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Checkout Your Information_lastName"), "MArtins"): Text 'MArtins' is set on object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+09-03-2024T11:47:25 - [MESSAGE][PASSED] - Text 'MArtins' is set on object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+09-03-2024T11:47:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Checkout Your Information_postalCode"), "433333"): Text '433333' is set on object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+09-03-2024T11:47:29 - [MESSAGE][PASSED] - Text '433333' is set on object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+09-03-2024T11:47:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Cancel_continue")): Object: 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Cancel_continue' is clicked on
+
+09-03-2024T11:47:31 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/input_Cancel_continue' is clicked on
+
+09-03-2024T11:47:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/span_Checkout Overview"), "Checkout: Overview"): Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/span_Checkout Overview' are matched.
+
+09-03-2024T11:47:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/span_Checkout Overview' are matched.
+
+09-03-2024T11:47:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/div_Payment Information"), "Payment Information"): Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/div_Payment Information' are matched.
+
+09-03-2024T11:47:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/div_Payment Information' are matched.
+
+09-03-2024T11:47:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/div_Shipping Information"), "Shipping Information"): Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/div_Shipping Information' are matched.
+
+09-03-2024T11:47:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/div_Shipping Information' are matched.
+
+09-03-2024T11:47:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/div_Price Total"), "Price Total"): Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/div_Price Total' are matched.
+
+09-03-2024T11:47:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/div_Price Total' are matched.
+
+09-03-2024T11:47:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/button_Finish")): Object: 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/button_Finish' is clicked on
+
+09-03-2024T11:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/button_Finish' is clicked on
+
+09-03-2024T11:47:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/h2_Thank you for your order"), "Thank you for your order!"): Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/h2_Thank you for your order' are matched.
+
+09-03-2024T11:47:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/h2_Thank you for your order' are matched.
+
+09-03-2024T11:47:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/button_Back Home")): Object: 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/button_Back Home' is clicked on
+
+09-03-2024T11:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_VerifyCheckoutPage/Page_Swag Labs/button_Back Home' is clicked on
+
+09-03-2024T11:47:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-03-2024T11:47:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-03-2024T11:46:48 - [TEST_SUITE][PASSED] - TS_28_SwagLab_OrderItem: Test Cases/SauceLabsApp/TC_28_OrderItem]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_29_SwagLab_ItemDetailsView" tests="1" failures="0" errors="0" time="41.065" skipped="0" timestamp="09-03-2024T11:47:51" hostname="DJ793LJ - IN3233809W1.ey.net" id="Test Suites/TS_29_SwagLab_ItemDetailsView">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_113709\\TS_29_SwagLab_ItemDetailsView\\20240309_113727"/>
+         <property name="logFiles" value="C:\\Users\\DJ793LJ\\git\\Katalon-Training\\Reports\\20240309_113709\\TS_29_SwagLab_ItemDetailsView\\20240309_113727\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DJ793LJ - IN3233809W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Edge Chromium 122"/>
+         <property name="hostAddress" value="192.168.2.5"/>
+         <property name="sessionId" value="4e4f5dd1a10dd7756fb438077a0c88c5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SauceLabsApp/TC_29_ItemDetailsView" time="40.855" classname="Test Cases/SauceLabsApp/TC_29_ItemDetailsView" status="PASSED">
+         <system-out><![CDATA[09-03-2024T11:47:51 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_29_ItemDetailsView: Test Cases/SauceLabsApp/TC_29_ItemDetailsView
+
+09-03-2024T11:47:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SauceLabsApp/TC_21_LoginWithValidUser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SauceLabsApp/TC_21_LoginWithValidUser' successfully
+
+09-03-2024T11:47:52 - [TEST_CASE][PASSED] - Test Cases/SauceLabsApp/TC_21_LoginWithValidUser: Test Cases/SauceLabsApp/TC_21_LoginWithValidUser
+
+09-03-2024T11:47:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-03-2024T11:47:52 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-03-2024T11:47:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-03-2024T11:47:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-03-2024T11:47:55 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T11:48:04 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+09-03-2024T11:48:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-03-2024T11:48:04 - [MESSAGE][PASSED] - Current window maximized
+
+09-03-2024T11:48:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:48:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:48:05 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:48:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T11:48:08 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_user-name'
+
+09-03-2024T11:48:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:48:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_password'
+
+09-03-2024T11:48:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T11:48:12 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+09-03-2024T11:48:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is visible
+
+09-03-2024T11:48:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:48:14 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is visible
+
+09-03-2024T11:48:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs"), 0): Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:48:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:48:15 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_LoginWithValidUser/Page_Swag Labs/div_Swag Labs' is present
+
+09-03-2024T11:48:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SauceLabsApp/TC_21_LoginWithValidUser' successfully
+
+09-03-2024T11:48:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/div_Sauce Labs Backpack")): Object: 'Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/div_Sauce Labs Backpack' is clicked on
+
+09-03-2024T11:48:18 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/div_Sauce Labs Backpack' is clicked on
+
+09-03-2024T11:48:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/button_Add to cart"), 0): Object 'Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/button_Add to cart' is present
+
+09-03-2024T11:48:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-03-2024T11:48:20 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/button_Add to cart' is present
+
+09-03-2024T11:48:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/button_Back to products")): Object 'Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/button_Back to products' is visible
+
+09-03-2024T11:48:22 - [MESSAGE][PASSED] - Object 'Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/button_Back to products' is visible
+
+09-03-2024T11:48:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/button_Back to products")): Object: 'Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/button_Back to products' is clicked on
+
+09-03-2024T11:48:24 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/button_Back to products' is clicked on
+
+09-03-2024T11:48:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/div_Sauce Labs Bike Light")): Object: 'Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/div_Sauce Labs Bike Light' is clicked on
+
+09-03-2024T11:48:26 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/div_Sauce Labs Bike Light' is clicked on
+
+09-03-2024T11:48:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/button_Add to cart_1")): Object: 'Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/button_Add to cart_1' is clicked on
+
+09-03-2024T11:48:28 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/button_Add to cart_1' is clicked on
+
+09-03-2024T11:48:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/button_Remove")): Object: 'Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/button_Remove' is clicked on
+
+09-03-2024T11:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/button_Remove' is clicked on
+
+09-03-2024T11:48:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/button_Back to products")): Object: 'Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/button_Back to products' is clicked on
+
+09-03-2024T11:48:32 - [MESSAGE][PASSED] - Object: 'Object Repository/SwagLab_ItemDetailsView/Page_Swag Labs/button_Back to products' is clicked on
+
+09-03-2024T11:48:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-03-2024T11:48:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-03-2024T11:47:51 - [TEST_SUITE][PASSED] - TS_29_SwagLab_ItemDetailsView: Test Cases/SauceLabsApp/TC_29_ItemDetailsView]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

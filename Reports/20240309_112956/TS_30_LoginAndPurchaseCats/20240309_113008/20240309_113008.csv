@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_30_LoginAndPurchaseCats,Edge Chromium 122,,,09-03-2024 11:34:30,09-03-2024 11:35:18,48.491s,PASSED
+,,,,,,,
+Test Cases/PetStoreApp/TC_30_LoginAndPurchaseCats,Edge Chromium 122,,,09-03-2024 11:34:30,09-03-2024 11:35:18,48.254s,PASSED
+"callTestCase(findTestCase(""PetStoreApp/TC_16_LoginToApp""), [:], STOP_ON_FAILURE)",Edge Chromium 122,,,09-03-2024 11:34:30,09-03-2024 11:34:58,27.391s,PASSED
+"click(findTestObject(""Object Repository/LoginAndPurchaseCats/Page_JPetStore Demo/img""))",Edge Chromium 122,,,09-03-2024 11:34:58,09-03-2024 11:35:00,2.259s,PASSED
+"click(findTestObject(""Object Repository/LoginAndPurchaseCats/Page_JPetStore Demo/a_FL-DLH-02""))",Edge Chromium 122,,,09-03-2024 11:35:00,09-03-2024 11:35:02,2.113s,PASSED
+"click(findTestObject(""Object Repository/LoginAndPurchaseCats/Page_JPetStore Demo/a_Add to Cart""))",Edge Chromium 122,,,09-03-2024 11:35:02,09-03-2024 11:35:04,1.977s,PASSED
+"setText(findTestObject(""Object Repository/LoginAndPurchaseCats/Page_JPetStore Demo/input_false_EST-16""), ""12"")",Edge Chromium 122,,,09-03-2024 11:35:04,09-03-2024 11:35:08,3.681s,PASSED
+"click(findTestObject(""Object Repository/LoginAndPurchaseCats/Page_JPetStore Demo/input_Sub Total 93.50_updateCartQuantities""))",Edge Chromium 122,,,09-03-2024 11:35:08,09-03-2024 11:35:10,2.282s,PASSED
+"click(findTestObject(""Object Repository/LoginAndPurchaseCats/Page_JPetStore Demo/a_Proceed to Checkout""))",Edge Chromium 122,,,09-03-2024 11:35:10,09-03-2024 11:35:12,1.996s,PASSED
+"click(findTestObject(""Object Repository/LoginAndPurchaseCats/Page_JPetStore Demo/input_Ship to different address_newOrder""))",Edge Chromium 122,,,09-03-2024 11:35:12,09-03-2024 11:35:14,2.054s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LoginAndPurchaseCats/Page_JPetStore Demo/b_Order""), ""Order"")",Edge Chromium 122,,,09-03-2024 11:35:14,09-03-2024 11:35:15,1.573s,PASSED
+"click(findTestObject(""Object Repository/LoginAndPurchaseCats/Page_JPetStore Demo/a_Return to Main Menu""))",Edge Chromium 122,,,09-03-2024 11:35:15,09-03-2024 11:35:18,2.344s,PASSED
+closeBrowser(),Edge Chromium 122,,,09-03-2024 11:35:18,09-03-2024 11:35:18,0.247s,PASSED
